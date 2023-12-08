@@ -5,7 +5,11 @@ This is a basic example of how to set up the Launchdarkly Javascript SDK, using 
 - Create a basic client-side login page with HTML, CSS and Javascript
 - Use a Launchdarkly release flag, to toggle on/off a feature in realtime via the LaunchDarkly dashboard
 - Use Segments to target specific users by country (Germany, Ireland)
-- Use Targets to target a specifc user 
+- Use Targets to target a specifc user
+
+Toggling the boolean flag from true to false will determine whether or not the login form on the page will be shown.
+
+---
 
 ### Supporting Docs
 - Javascript SDK reference: https://docs.launchdarkly.com/sdk/client-side/javascript
