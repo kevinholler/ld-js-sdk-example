@@ -58,3 +58,6 @@ function login() {
         errorMessage.textContent = 'Invalid username or password.';
     }
 }
+
+// Flush all events
+client.flush();
